@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tentative d'entrée"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/back_background" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="Refuser" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:background="@color/teal_200"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="215dp"
+        android:text="Accepter" />
+
+</FrameLayout>
